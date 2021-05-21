@@ -1,0 +1,134 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #024F97 60%, #F7D372 40%);
+}
+
+header{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome{
+    color: #F7D372;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #024F97;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu button{
+    width: 100px;
+    padding: 10px;
+    background: #024F97;
+    color: white;
+    border: none;
+}
+
+#apresentacao{
+    height: 780px;
+    display: flex;
+    justify-content: center;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+.text-area{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.design-area{
+    flex: 1;
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    width: 500px;
+}
+
+.resume{
+    line-height: 25px;
+    margin-top: 40px;
+    color: #e2e2e2;
+}
+
+.botao{
+    margin-top: 40px;
+}
+
+.button{
+    display: flex;
+}
+
+.botao button{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 15px;
+    font-weight: bold;
+    color: #024F97;
+    background-color: #F7D372;
+    border: none;
+    cursor: pointer;   
+}
+
+.botao button:hover{
+    transform: scale(1.1);
+}
+
+.seta{
+    height: 100%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.pendrive img{
+    width: 500px;
+    position: absolute;
+    left: 1428px;
+    top: 230px;
+}
